@@ -15,7 +15,7 @@
 
 # Your turn...
 # Exponentiation: Three to the second power 
-# pourso - R uses caret for exponentiation
+# pourso - R uses caret for exponentiation, below is 3 squared
 3^2
 
 # Part (b)  ========
@@ -29,11 +29,11 @@ class(example1)
 class(example2)
 
 # Your turn...
+# pourso - examples of numeric, boolean and character variables
 one <- 31.28
 class(one)
 # Don't forget two and three!
 
-class(one)
 # Now you do the next two
 # pourso - logical and character vars
 two <- TRUE
@@ -50,6 +50,7 @@ names(example) <- c("odd1", "odd2", "even1", "even2")
 example
 
 # Your turn...
+# pourso - example vector with named columns
 numbers <- c(31282,5,1980,27)
 names(numbers) <- c("Date", "George", "Year", "Trout")
 numbers
